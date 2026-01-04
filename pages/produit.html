@@ -1,49 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../src/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
 </head>
+
 <body class="bg-black">
-    <nav class="flex bg-black text-gray-300 justify-between px-4 py-6">
-    <div class="m-4 font-bold text-2xl">MOUSSA NDOYE</div>
-     <button id="menu-btn" class="md:hidden flex flex-col gap-1.5">
-    <span class="w-6 h-0.5 bg-white"></span>
-    <span class="w-6 h-0.5 bg-white"></span>
-    <span class="w-6 h-0.5 bg-white"></span>
-  </button>
+  <nav class="flex bg-black text-gray-300 justify-between px-4 py-6 p-6">
+    <div class="sm:m-4 font-bold sm:text-2xl">MOUSSA NDOYE</div>
+    <button id="menu-btn" class="md:hidden flex flex-col gap-1.5">
+      <span class="w-6 h-0.5 bg-white"></span>
+      <span class="w-6 h-0.5 bg-white"></span>
+      <span class="w-6 h-0.5 bg-white"></span>
+    </button>
     <ul class="hidden md:flex items-center gap-6 m-4">
       <li><a href="#">Projets</a></li>
       <li><a href="/index.html">À propos</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
- <div class="grid grid-cols-1 sm:grid-cols-2 text-white m-7">
+  <div class="grid grid-cols-1 sm:grid-cols-2 text-white px-0 sm:px-7">
     <div>
-      <h1 class="font-bold sm:text-6xl sm:text-center ">À PROPOS DE MOI</h1>
+      <h1 class="font-bold sm:text-6xl sm:text-center m-4 ">À PROPOS DE MOI</h1>
     </div>
+
     <div class="text-white">
-      <h1 class="sm:text-2xl">Je suis développeur front-end basé à DAKAR, avec une formation en génie Informatique.</h1>
+      <h1 class=" m-4 sm:text-2xl">Je suis développeur front-end basé à DAKAR, avec une formation en génie Informatique.</h1>
       <p class="m-4 sm:text-sm text-[#C7C7C7]">Je suis développeur front-end basé à Dakar, à la recherche d’opportunités
         stimulantes. Avec une formation en génie informatique, je mets un point d’honneur à privilégier l’accessibilité
         lors du développement. Passionné et curieux, j’aime résoudre des problèmes complexes.
         Actuellement, j’explore React.js, Laravel et m’initie également au design. En dehors du codage, j’apprécie jouer
         au football, la photographie et jouer à la carte. Je continue d’apprendre pour améliorer constamment mes
         compétences.</p>
-<div class="grid grid-cols-3">
-    <button class="bg-[#D3E97A] text-black p-2 m-4 rounded-3xl ">télécharger cv<i class="fa-solid fa-arrow-up-from-bracket m-2 rounded-2xl py-2 cursor-pointer  text-white bg-black"></i></button>
-<i class="fa-brands fa-linkedin-in m-4"></i>
-</div>
-        
+
+      <div class="flex items-center gap-4 mt-6">
+        <button class="bg-[#D3E97A] text-black  rounded-3xl ">télécharger cv<i
+            class="fa-solid fa-arrow-up-from-bracket m-2 rounded-2xl py-2 cursor-pointer  text-white bg-black"></i></button>
+        <a href="#"><i class="fa-brands fa-linkedin-in text-[#D3E97A] text-4xl"></i></a>
+        <a href="#"><i class="fa-brands fa-github text-[#D3E97A] text-4xl"></i> </a>
+      </div>
+
     </div>
   </div>
- <div class=" grid grid-cols-1 place-items-center m-16 rounded-2xl bg-[#C7C7C7]">
+  <div class=" grid grid-cols-1 place-items-center m-16 rounded-2xl bg-[#C7C7C7]">
     <img src="../src/images/OHM.png" class="w-90" alt="">
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 text-white place-items-center px-4 ">
+    <div class="font-bold sm:text-6xl text-3xl text-left ">
+      <h1 class="sm:text-6xl text-2xl sm:text-center sm:font-bold"> MES COMPETENCES </h1>
+    </div>
+    <div class="text-[#C7C7C7] text-left">
+      <p class="mt-4 m-9 leading-relaxed ">Je suis toujours à la recherche de nouvelles compétences à développer. J’aime relever de nouveaux défis,
+        apprendre des technologies variées et enrichir continuellement mon savoir-faire pour proposer des solutions
+        modernes et efficaces</p>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mt-7">
+        <span class=" m-6 px-4 py-2 border-2 border-gray-600 rounded-full">HTML</span>
+        <span class=" m-6 px-4 py-2 border-2 border-gray-600 rounded-full">CSS</span>
+        <span class=" m-6 px-4 py-2 border-2 border-gray-600 rounded-full">JavaScript</span>
+        <span class=" m-6 px-4 py-2 border-2 border-gray-600 rounded-full">jQuery</span>
+      
+        <span class="  m-6  py-2 border-2 border-gray-600 rounded-full ">BOOSTRAP</span>
+        <span class="px-4 m-6 py-2 border-2 border-gray-600 rounded-full">FIGMA</span>
+        <span class=" m-6 py-2  text-sm  border-2 border-gray-600 rounded-full">TAILWINDCSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 text-white place-items-center px-4 ">
+    <div>
+      <h1 class=" m-4 font-bold sm:text-6xl sm:text-center ">MON EXPERIENCE </h1>
+    </div>
+    <div>
+      <div class=" m-7 gap-4">Développeur freelance<span class="text-[#C7C7C7] m-7 whitespace-nowrap ">Nov 2023 — Present</span> </div>
+    <p class="m-7 text-[#C7C7C7]">J’ai exercé en tant que développeur freelance sur différents projets, en assurant la conception et la réalisation de solutions web adaptées aux besoins spécifiques des clients. Je veille à garantir des livrables de haute qualité, alliant accessibilité, performance et fiabilité, tout en respectant les délais impartis.</p>
+<div>
+      <div class=" m-7 gap-4">Stagiaire FontEnd<span class="text-[#C7C7C7] m-7  whitespace-nowrap">Sep 2023-Nov-2025</span> </div>
+    <p class="text-[#D3E97A] m-7">Damel-Tech</p>
+      <p class="m-7 text-[#C7C7C7]">Damel-Tech est une entreprise dynamique spécialisée dans le développement de solutions digitales sur mesure pour les PME et startups. Forte d'une équipe de 25 collaborateurs passionnés,</p>
 </div>
-
-
+  </div>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 text-white px-2">
+    <div>
+      <h1 class=" sm:text-5xl font-bold text-center">ENTRONS EN CONTACT</h1>
+      <p class=" m-7 px-10">Dites bonjour à <a href="#" class="underline text-[#D3E97A]">moussandoye@gmail.com</a><br>Pour savoir plus,voici mon...<a href="#" class="text-[#D3E97A] underline">cv</a> </p>
+    <div class="p-7 m-7"><a href="#"><i class="fa-brands fa-linkedin-in text-[#D3E97A] text-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-github text-[#D3E97A] text-2xl "></i> </a>
+        <a href="#"><i class="fa-brands fa-x-twitter text-2xl text-[#D3E97A]"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram text-2xl text-[#D3E97A]"></i></a></div>
+      
+    </div>
+     <div>
+      <form class="">
+        <label class="text-[#C7C7C7]">Nom Complet</label>
+        <input type="text" placeholder="John Doe" class="p-4 px-2 bg-[#1A1A1A] rounded-lg w-full">
+        <label class="text-[#C7C7C7]">Email</label>
+        <input type="email" class=" bg-[#1A1A1A] p-4 rounded-lg mt-2 w-full">
+        <label class="text-[#C7C7C7]">Sujet</label>
+        <input type="text" class="p-4  bg-[#1A1A1A] rounded-lg mt-2 w-full ">
+        <label class="text-[#C7C7C7]">Votre message</label>
+        <textarea class="p-4  bg-[#1A1A1A] gap-4 rounded-lg mt-2 w-full"></textarea>
+      </form>
+      <button class="text-black  font-bold bg-[#D3E97A] p-2 px-4 mt-6 rounded-2xl "><a
+          href="#">ENVOYER</a></button>
+    </div>
+    <footer class="text-[#C7C7C7] m-6 px-10"><p>&copy;2023 Moussa Ndoye</p></footer>
+  </div>
+  
 </body>
+
 </html>
